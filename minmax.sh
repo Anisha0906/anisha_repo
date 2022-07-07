@@ -1,8 +1,8 @@
-var1=$(( RANDOM%899+100 ))
-var2=$(( RANDOM%899+100 ))
-var3=$(( RANDOM%899+100 ))
-var4=$(( RANDOM%899+100 ))
-var5=$(( RANDOM%899+100 ))
+var1=$(( 100+ RANDOM%899 ))
+var2=$(( 100+ RANDOM%899 ))
+var3=$(( 100+ RANDOM%899 ))
+var4=$(( 100+ RANDOM%899 ))
+var5=$(( 100+ RANDOM%899 ))
 echo "Random 3 digit values are : $var1 $var2 $var3 $var4 $var5"
 echo "Random 3 digit values are : $var1 $var2 $var3 $var4 $var5"
 if (( $var1 > $var2 & $var1 > $var3 & $var1 > $var4 & $var1 > $var5 ))
